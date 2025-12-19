@@ -1,8 +1,8 @@
 import Profile from "../../assets/profile-photo.png";
-import { BellDot, Settings, UserRoundPen, Info, LogOut, X } from "lucide-react";
+import { BellDot, Settings, UserRoundPen, Info, LogOut, X,TextAlignJustify } from "lucide-react";
 import { useState, useRef, useEffect } from "react";
 
-const Header = () => {
+const Header = ({ collapsed, setCollapsed }) => {
 
   const notifications = [
     {
@@ -53,8 +53,14 @@ const Header = () => {
 
   return (
     <header className="w-full flex items-center justify-between bg-white border-b border-gray-light1 py-2.5 px-6">
-      <h1 className="font-semibold text-2xl leading-none">Snapshot</h1>
-
+      
+      <div className="flex gap-2.5 items-center">
+        <button className="cursor-pointer border border-gray-300 p-2 rounded-xl"    
+          onClick={() => setCollapsed(!collapsed)}
+          style={{ fontSize: "18px" }}
+        ><TextAlignJustify /></button>
+        <h1 className="font-semibold text-2xl leading-none !m-0">Snapshot</h1>
+      </div>
       <div className="flex items-center gap-4">
         {/* 🔔 Bell Dropdown */}
         <div className="relative" ref={bellRef}>

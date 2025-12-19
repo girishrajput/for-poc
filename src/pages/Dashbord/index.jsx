@@ -1,15 +1,15 @@
 import React from 'react'
 
 import Business from "../Dashbord/Business"
-import GgrNgrBarChart from '../../charts/GgrNgrBarChart';
 import AverageRegistrations from '../Dashbord/AverageRegistrations';
-import OrganicRegistrations from '../../charts/OrganicRegistrations';
-import OrganicFTD from '../../charts/OrganicFTD'
+import OrganicFTD from '../../components/charts/OrganicFTD'
+import GgrNgrBarChart from "../../components/charts/GgrNgrBarChart";
+import OrganicRegistrations from "../../components/charts/OrganicRegistrations";
 
 
 const Dashboard = () => {
   return (
-    <div>
+    <div className='p-5'>
       <Business />
       <GgrNgrBarChart/>
       <AverageRegistrations/>

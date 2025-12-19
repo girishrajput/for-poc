@@ -1,6 +1,6 @@
 import React from 'react'
 
-import Dashboard from "../pages/Dashbord/index"
+import Dashboard from "../../pages/Dashbord/index"
 
 const PageContainer = () => {
   return (
