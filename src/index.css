@@ -2,6 +2,28 @@
 
 body {
   font-family: 'Poppins', sans-serif;
+  background-color: var(--color-gray-light);
+}
+
+.ant-menu-submenu-selected, .ant-menu-item-selected {
+  position: relative;
+}
+.ant-menu-submenu-selected::after, .ant-menu-item-selected::after {
+  content: "";
+  height: 45px;
+  width: 6px;
+  border-radius: 0px 6px 6px 0;
+  background-color: var(--color-primary-color);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.ant-menu-item {
+  color: var(--color-title-color-50) !important;
+}
+li.ant-menu-item-selected {
+  color: var(--color-primary-color) !important;
 }
 
 @theme {

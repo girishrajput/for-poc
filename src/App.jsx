@@ -3,9 +3,9 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Header from "./components/layout/Header";
 import Sidebar from "./components/layout/Sidebar";
 import "antd/dist/reset.css";
-import About from "./pages/About";
+import Payments from "./pages/Payments";
 import Dashboard from "./pages/Dashbord";
-import Contact from "./pages/Contact";
+import Snapshot from "./pages/Snapshot";
 
 const Security = () => <h1>Security Page</h1>;
 
@@ -23,8 +23,8 @@ function App() {
 
           <Routes>
             <Route path="/" element={<Dashboard />} />
-            <Route path="/about" element={<About />} />
-            <Route path="/contact" element={<Contact />} />
+            <Route path="/Snapshot" element={<Snapshot />} />
+            <Route path="/Payments" element={<Payments />} />
             <Route path="/settings/security" element={<Security />} />
           </Routes>
         </div>

@@ -1,5 +1,6 @@
 // src/components/layout/Sidebar.jsx
 import React from "react";
+import { Link } from "react-router-dom";
 import {
   House,
   Network,
@@ -25,8 +26,8 @@ const items = [
     label: "Dashboards",
     icon: <House />,
     children: [
-      { key: "/contact", label: "Snapshot" },
-      { key: "/a", label: "Payments" },
+      { key: "/Snapshot", label: "Snapshot" },
+      { key: "/Payments", label: "Payments" },
       { key: "/b", label: "Registrations" },
       { key: "/c", label: "Registration Comparisons" },
       { key: "/d", label: "Alerts" },
@@ -80,11 +81,15 @@ const Sidebar = ({ collapsed }) => {
   return (
     <>
       <div>
-        <div className="px-6 py-4">
+        <div className=" px-4 xl:px-6 py-4">
           {collapsed ? (
-            <img src={SmallLogo} className="w-10" alt="Logo small" />
+            <Link to="/" className="block">
+              <img src={SmallLogo} className="w-10" alt="Logo small" />
+            </Link>
           ) : (
+            <Link to="/" className="block">
             <img src={Logo} className="min-w-48" alt="Logo full" />
+            </Link>
           )}
         </div>
       </div>

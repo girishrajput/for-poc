@@ -87,7 +87,7 @@ const Header = ({ collapsed, setCollapsed }) => {
 
 
               {/* List */}
-              <div className="space-y-2 max-h-[420px] overflow-y-auto">
+              <div className="space-y-2 max-h-[370px] overflow-y-auto">
               {notifications.map((n, i) => (
               <div
               key={i}
@@ -126,7 +126,7 @@ const Header = ({ collapsed, setCollapsed }) => {
 
 
               {/* Footer */}
-              <button className="mt-4 w-full rounded-xl border border-gray-200 py-2 text-sm font-medium hover:bg-gray-50">
+              <button className="cursor-pointer mt-4 w-full rounded-xl border border-gray-200 py-2 text-sm font-medium hover:bg-gray-50">
               View All Notifications
               </button>
               
