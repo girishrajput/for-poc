@@ -11,7 +11,7 @@ function App() {
 
   return (
     <>
-    <div className='min-h-screen xl:flex bg-gray-light'>
+    <div className='min-h-screen xl:flex bg-gray-light flex'>
       <div className='flex-1 transition-all duration-300 ease-in-out'>
         <Sidebar />
       </div>
