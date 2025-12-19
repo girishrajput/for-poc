@@ -65,7 +65,7 @@ const Header = ({ collapsed, setCollapsed }) => {
         {/* 🔔 Bell Dropdown */}
         <div className="relative" ref={bellRef}>
           <button
-            className="p-3 rounded-full bg-gray-light"
+            className="p-3 rounded-full bg-gray-light cursor-pointer"
             onClick={() => {
               setBellOpen(!bellOpen);
               setProfileOpen(false);
