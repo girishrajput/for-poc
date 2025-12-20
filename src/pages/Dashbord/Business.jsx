@@ -52,7 +52,7 @@ function Business() {
                 <p className="text-sm font-medium text-title-color-70 !mb-0">
                   {item.title}
                 </p>
-                <h3 className="mt-1 text-2xl font-semibold text-title-color">
+                <h3 className="mt-1 text-2xl font-semibold text-title-color !mb-0">
                   {item.value}
                 </h3>
               </div>

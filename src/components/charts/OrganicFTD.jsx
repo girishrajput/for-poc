@@ -111,7 +111,7 @@ export default function OrganicFTD() {
                   <p className="text-sm font-medium text-title-color-70 !mb-0">
                     Total Affiliates FTD
                   </p>
-                  <h3 className="mt-1 text-2xl font-semibold text-title-color">
+                  <h3 className="mt-1 text-2xl font-semibold text-title-color !mb-0">
                     R 8.54 m
                   </h3>
                 </div>
@@ -121,7 +121,7 @@ export default function OrganicFTD() {
                   <p className="text-sm font-medium text-title-color-70 !mb-0">
                     Total Organic FTD
                   </p>
-                  <h3 className="mt-1 text-2xl font-semibold text-title-color">
+                  <h3 className="mt-1 text-2xl font-semibold text-title-color !mb-0">
                     R 11.65 m
                   </h3>
                 </div>

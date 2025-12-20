@@ -113,7 +113,7 @@ export default function OrganicRegistrations() {
                   <p className="text-sm font-medium text-title-color-70 !mb-0">
                     Total Affiliates Reg.
                   </p>
-                  <h3 className="mt-1 text-2xl font-semibold text-title-color">
+                  <h3 className="mt-1 text-2xl font-semibold text-title-color !mb-0">
                     727,501
                   </h3>
                 </div>
@@ -123,7 +123,7 @@ export default function OrganicRegistrations() {
                   <p className="text-sm font-medium text-title-color-70 !mb-0">
                     Total Organic Reg.
                   </p>
-                  <h3 className="mt-1 text-2xl font-semibold text-title-color">
+                  <h3 className="mt-1 text-2xl font-semibold text-title-color !mb-0">
                     892,694
                   </h3>
                 </div>

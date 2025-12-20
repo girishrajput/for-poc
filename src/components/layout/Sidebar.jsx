@@ -97,7 +97,7 @@ const Sidebar = ({ collapsed }) => {
         mode="inline"
         inlineCollapsed={collapsed}
         style={{ height: "100%" }}
-        className="!border-0"
+        className="!bg-transparent !border-none"
         items={items}
         selectedKeys={[location.pathname]}
         onClick={({ key }) => navigate(key)}

@@ -1,5 +1,17 @@
 @import "tailwindcss";
 
+@theme {
+  --color-primary-color: #3B57C9;
+  --color-secondary-color: #1C2434;
+  --color-title-color: #1C2434;
+  --color-title-color-50: #1C243480;
+  --color-title-color-70: #1C2434B3;
+  --color-gray-light: #F5F7FA;
+  --color-gray-light1: #E6EFF5;
+  --color-gray-light2: #F8F9FA;
+}
+
+
 body {
   font-family: 'Poppins', sans-serif;
   background-color: var(--color-gray-light);
@@ -26,13 +38,16 @@ li.ant-menu-item-selected {
   color: var(--color-primary-color) !important;
 }
 
-@theme {
-  --color-primary-color: #3B57C9;
-  --color-secondary-color: #1C2434;
-  --color-title-color: #1C2434;
-  --color-title-color-50: #1C243480;
-  --color-title-color-70: #1C2434B3;
-  --color-gray-light: #F5F7FA;
-  --color-gray-light1: #E6EFF5;
-  --color-gray-light2: #F8F9FA;
+/* ant-menu-reset.css */
+.ant-menu-item,
+.ant-menu-submenu-title {
+  background: transparent !important;
+  margin: 0 !important;
+  border-radius: 0 !important;
 }
+
+.ant-menu-item-selected {
+  background: transparent !important;
+}
+
+
