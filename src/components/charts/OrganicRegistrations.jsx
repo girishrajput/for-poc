@@ -101,7 +101,7 @@ export default function OrganicRegistrations() {
 
   return (
     <>
-        <h2 className="text-xl font-semibold text-title-color mt-6">Affiliate vs Organic Registrations</h2>
+        <h2 className="text-xl font-semibold text-title-color pt-6 !mb-0">Affiliate vs Organic Registrations</h2>
         <div className="p-0 mt-2.5 rounded-xl border border-gray-200 bg-white shadow-sm justify-center">
 
           <div className="grid grid-cols-1 lg:grid-cols-4">
@@ -110,7 +110,7 @@ export default function OrganicRegistrations() {
                 
                 <div className="p-4 border-b border-b-gray-light1 w-full flex flex-col gap-2.5 justify-end">
                   <Network className="text-[#0099F2] h-8 w-8" />
-                  <p className="text-sm font-medium text-title-color-70">
+                  <p className="text-sm font-medium text-title-color-70 !mb-0">
                     Total Affiliates Reg.
                   </p>
                   <h3 className="mt-1 text-2xl font-semibold text-title-color">
@@ -120,7 +120,7 @@ export default function OrganicRegistrations() {
 
                 <div className="p-4 w-full flex flex-col gap-2.5 lg:border-0 border-b border-b-gray-light1">
                   <UserRoundPlus className="text-[#00CEE8] h-8 w-8" />
-                  <p className="text-sm font-medium text-title-color-70">
+                  <p className="text-sm font-medium text-title-color-70 !mb-0">
                     Total Organic Reg.
                   </p>
                   <h3 className="mt-1 text-2xl font-semibold text-title-color">

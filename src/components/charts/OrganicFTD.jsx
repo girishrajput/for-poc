@@ -101,14 +101,14 @@ export default function OrganicFTD() {
 
   return (
     <>
-        <h2 className="text-xl font-semibold text-title-color mt-6">Affiliate vs Organic FTD</h2>
+        <h2 className="text-xl font-semibold text-title-color pt-6 !mb-0">Affiliate vs Organic FTD</h2>
         <div className="p-0 mt-2.5 rounded-xl border border-gray-200 bg-white shadow-sm justify-center">
 
           <div className="grid grid-cols-1 lg:grid-cols-4">
             <div className="col-span-1 border-r border-r-gray-light1 flex justify-center lg:flex-wrap columns-2">                
                 <div className="p-4 border-b border-b-gray-light1 w-full flex flex-col gap-2.5 justify-end">
                   <PiggyBank className="text-[#0099F2] h-8 w-8" />
-                  <p className="text-sm font-medium text-title-color-70">
+                  <p className="text-sm font-medium text-title-color-70 !mb-0">
                     Total Affiliates FTD
                   </p>
                   <h3 className="mt-1 text-2xl font-semibold text-title-color">
@@ -118,7 +118,7 @@ export default function OrganicFTD() {
 
                 <div className="p-4 w-full flex flex-col gap-2.5 lg:border-0 border-b border-b-gray-light1">
                   <HandCoins className="text-[#9159C0] h-8 w-8" />
-                  <p className="text-sm font-medium text-title-color-70">
+                  <p className="text-sm font-medium text-title-color-70 !mb-0">
                     Total Organic FTD
                   </p>
                   <h3 className="mt-1 text-2xl font-semibold text-title-color">

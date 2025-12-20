@@ -79,7 +79,7 @@ const Header = ({ collapsed, setCollapsed }) => {
               
               {/* Header */}
               <div className="flex items-center justify-between mb-4">
-              <h2 className="text-lg font-semibold">Notification</h2>
+              <h2 className="text-lg font-semibold !mb-0">Notification</h2>
               <button className="p-1 rounded-full hover:bg-gray-100">
               <X className="w-4 h-4 text-gray-500" />
               </button>
@@ -114,11 +114,11 @@ const Header = ({ collapsed, setCollapsed }) => {
 
               {/* Text */}
               <div className="flex-1 text-sm">
-              <p className="text-gray-900">
+              <p className="text-gray-900 !mb-0">
               <span className="font-semibold">{n.name}</span> requests permission
               to change <span className="font-semibold">Project - Nganter App</span>
               </p>
-              <p className="text-gray-500 mt-1">Project • {n.time}</p>
+              <p className="text-gray-500 !mt-1 !mb-0">Project • {n.time}</p>
               </div>
               </div>
               ))}

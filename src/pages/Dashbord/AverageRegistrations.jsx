@@ -34,7 +34,7 @@ function AverageRegistrations() {
   return (
     <>
       <div className="grid grid-cols-1 mt-6">
-        <h2 className="text-xl font-semibold text-title-color">Average Registrations & FTD</h2>
+        <h2 className="text-xl font-semibold text-title-color !mb-0">Average Registrations & FTD</h2>
       </div>
       <div className="grid grid-cols-1 lg:grid-cols-4 gap-4 mt-2.5">
         {stats.map((item, index) => {
@@ -45,7 +45,7 @@ function AverageRegistrations() {
               className="flex items-center justify-between rounded-xl border border-gray-200 bg-white p-5 shadow-sm"
             >
               <div>
-                <p className="text-sm font-medium text-title-color-70">
+                <p className="text-sm font-medium text-title-color-70 !mb-0">
                   {item.title}
                 </p>
                 <h3 className="mt-1 text-2xl font-semibold text-title-color">

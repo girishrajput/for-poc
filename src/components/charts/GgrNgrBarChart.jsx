@@ -69,7 +69,7 @@ const GgrNgrBarChart = () => {
   return(
     <>
     <div className="p-4 mt-6 rounded-xl border border-gray-200 bg-white shadow-sm">
-    <h2 className="text-xl font-semibold text-title-color">Monthly GGR & NGR</h2>
+    <h2 className="text-xl font-semibold text-title-color !mb-0">Monthly GGR & NGR</h2>
     <Bar data={data} options={options} className="w-full mt-2" />
     </div>
     </>

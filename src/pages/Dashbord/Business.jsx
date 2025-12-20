@@ -38,7 +38,7 @@ function Business() {
   return (
     <>
       <div className="grid grid-cols-1">
-        <h2 className="text-xl font-semibold text-title-color">Business</h2>
+        <h2 className="text-xl font-semibold text-title-color !mb-0">Business</h2>
       </div>
       <div className="grid grid-cols-1 lg:grid-cols-4 gap-4 mt-2.5">
         {stats.map((item, index) => {
@@ -49,7 +49,7 @@ function Business() {
               className="flex items-center justify-between rounded-xl border border-gray-200 bg-white p-5 shadow-sm"
             >
               <div>
-                <p className="text-sm font-medium text-title-color-70">
+                <p className="text-sm font-medium text-title-color-70 !mb-0">
                   {item.title}
                 </p>
                 <h3 className="mt-1 text-2xl font-semibold text-title-color">
