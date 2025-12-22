@@ -107,7 +107,7 @@ export default function OrganicFTD() {
           <div className="grid grid-cols-1 lg:grid-cols-4">
             <div className="col-span-1 border-r border-r-gray-light1 flex justify-center lg:flex-wrap columns-2">                
                 <div className="p-4 border-b border-b-gray-light1 w-full flex flex-col gap-2.5 justify-end">
-                  <PiggyBank className="text-[#0099F2] h-8 w-8" />
+                  <PiggyBank className="text-[#0099F2] h-10 w-10" />
                   <p className="text-sm font-medium text-title-color-70 !mb-0">
                     Total Affiliates FTD
                   </p>
@@ -117,7 +117,7 @@ export default function OrganicFTD() {
                 </div>
 
                 <div className="p-4 w-full flex flex-col gap-2.5 lg:border-0 border-b border-b-gray-light1">
-                  <HandCoins className="text-[#9159C0] h-8 w-8" />
+                  <HandCoins className="text-[#9159C0] h-10 w-10" />
                   <p className="text-sm font-medium text-title-color-70 !mb-0">
                     Total Organic FTD
                   </p>

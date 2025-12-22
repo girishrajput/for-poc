@@ -109,7 +109,7 @@ export default function OrganicRegistrations() {
             <div className="col-span-1 border-r border-r-gray-light1 flex justify-center lg:flex-wrap columns-1 lg:columns-2">
                 
                 <div className="p-4 border-b border-b-gray-light1 w-full flex flex-col gap-2.5 justify-end">
-                  <Network className="text-[#0099F2] h-8 w-8" />
+                  <Network className="text-[#0099F2] h-10 w-10" />
                   <p className="text-sm font-medium text-title-color-70 !mb-0">
                     Total Affiliates Reg.
                   </p>
@@ -119,7 +119,7 @@ export default function OrganicRegistrations() {
                 </div>
 
                 <div className="p-4 w-full flex flex-col gap-2.5 lg:border-0 border-b border-b-gray-light1">
-                  <UserRoundPlus className="text-[#00CEE8] h-8 w-8" />
+                  <UserRoundPlus className="text-[#00CEE8] h-10 w-10" />
                   <p className="text-sm font-medium text-title-color-70 !mb-0">
                     Total Organic Reg.
                   </p>
