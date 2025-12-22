@@ -59,7 +59,7 @@ function Business() {
               <div
                 className={`flex h-12 w-12 items-center justify-center rounded-2xl ${item.iconBg}`}
               >
-                  <Icon size={22} className={item.IconColor} />
+                  <Icon size={30} className={item.IconColor} />
               </div>
             </div>
           );

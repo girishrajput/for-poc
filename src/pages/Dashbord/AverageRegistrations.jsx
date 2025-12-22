@@ -53,7 +53,7 @@ function AverageRegistrations() {
                 </h3>
               </div>
               <div className={`flex items-center justify-center`}>
-                  <Icon size={22} className={item.IconColor} />
+                  <Icon size={30} className={item.IconColor} />
               </div>
             </div>
           );
