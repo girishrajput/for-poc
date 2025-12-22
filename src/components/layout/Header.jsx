@@ -73,7 +73,7 @@ const Header = ({ collapsed, setCollapsed }) => {
           onClick={() => setCollapsed(!collapsed)}
           style={{ fontSize: "18px" }}
         ><TextAlignJustify /></button>
-        <h1 className="font-semibold text-2xl leading-none !m-0">{getTitleFromPath()}</h1>
+        <h1 className="font-semibold text-2xl leading-none !m-0 hidden md:block">{getTitleFromPath()}</h1>
       </div>
       <div className="flex items-center gap-4">
         {/* 🔔 Bell Dropdown */}
@@ -93,10 +93,7 @@ const Header = ({ collapsed, setCollapsed }) => {
               
               {/* Header */}
               <div className="flex items-center justify-between mb-4">
-              <h2 className="text-lg font-semibold !mb-0">Notification</h2>
-              <button className="p-1 rounded-full hover:bg-gray-100">
-              <X className="w-4 h-4 text-gray-500" />
-              </button>
+                <h2 className="text-lg font-semibold !mb-0">Notification</h2>
               </div>
 
 

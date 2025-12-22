@@ -77,4 +77,5 @@ ul.ant-menu-sub .ant-menu-item::before{
 }
 ul.ant-menu {
   height: auto !important;
+  background: #fff !important;
 }
