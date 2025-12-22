@@ -1,8 +1,19 @@
 import Profile from "../../assets/profile-photo.png";
 import { BellDot, Settings, UserRoundPen, Info, LogOut, X,TextAlignJustify } from "lucide-react";
 import { useState, useRef, useEffect } from "react";
+import { useLocation } from "react-router-dom";
 
 const Header = ({ collapsed, setCollapsed }) => {
+  const location = useLocation();
+  
+  const getTitleFromPath = () => {
+    const path = location.pathname;
+    if (path === "/" || path === "/Dashbord") return "Dashboard";
+    if (path === "/Snapshot") return "Snapshot";
+    if (path === "/Payments") return "Payments";
+    if (path === "/settings/security") return "Security";
+    return "Dashboard";
+  };
 
   const notifications = [
     {
@@ -59,7 +70,7 @@ const Header = ({ collapsed, setCollapsed }) => {
           onClick={() => setCollapsed(!collapsed)}
           style={{ fontSize: "18px" }}
         ><TextAlignJustify /></button>
-        <h1 className="font-semibold text-2xl leading-none !m-0">Snapshot</h1>
+        <h1 className="font-semibold text-2xl leading-none !m-0">{getTitleFromPath()}</h1>
       </div>
       <div className="flex items-center gap-4">
         {/* 🔔 Bell Dropdown */}
@@ -169,25 +180,25 @@ const Header = ({ collapsed, setCollapsed }) => {
 
               <ul className="mt-6">
                 <li>
-                  <a href="#" className="flex gap-2.5 py-3 px-1.5 text-title-color-50">
+                  <a href="#" className="items-center flex gap-2.5 py-3 px-1.5 text-title-color-50">
                     <UserRoundPen />
                     Edit profile
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="flex gap-2.5 py-3 px-1.5 text-title-color-50">
+                  <a href="#" className="items-center flex gap-2.5 py-3 px-1.5 text-title-color-50">
                     <Settings />
                     Account settings
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="flex gap-2.5 py-3 px-1.5 text-title-color-50">
+                  <a href="#" className="items-center flex gap-2.5 py-3 px-1.5 text-title-color-50">
                     <Info />
                     Support
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="flex gap-2.5 py-3 px-1.5 text-title-color-50">
+                  <a href="#" className="items-center flex gap-2.5 py-3 px-1.5 text-title-color-50">
                     <LogOut />
                     Sign out
                   </a>

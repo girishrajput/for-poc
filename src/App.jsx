@@ -15,7 +15,7 @@ function App() {
   return (
     <BrowserRouter>
       <div className="min-h-screen flex bg-gray-light">
-        <div className="border-r border-gray-light1 bg-white">
+        <div className="border-r border-gray-light1 bg-white min-h-screen ">
           <Sidebar collapsed={collapsed} />
         </div>
         <div className="flex-1">
