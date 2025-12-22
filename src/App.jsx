@@ -6,6 +6,10 @@ import "antd/dist/reset.css";
 import Payments from "./pages/Payments";
 import Dashboard from "./pages/Dashbord";
 import Snapshot from "./pages/Snapshot";
+import Registrations from "./pages/Registrations";
+import RegistrationComparisons from "./pages/RegistrationComparisons";
+import Alerts from "./pages/Alerts";
+import Deposit from "./pages/Deposit";
 
 const Security = () => <h1>Security Page</h1>;
 
@@ -25,6 +29,10 @@ function App() {
             <Route path="/" element={<Dashboard />} />
             <Route path="/Snapshot" element={<Snapshot />} />
             <Route path="/Payments" element={<Payments />} />
+            <Route path="/Registrations" element={<Registrations />} />
+            <Route path="/RegistrationComparisons" element={<RegistrationComparisons />} />
+            <Route path="/Alerts" element={<Alerts />} />
+            <Route path="/Deposit" element={<Deposit />} />
             <Route path="/settings/security" element={<Security />} />
           </Routes>
         </div>

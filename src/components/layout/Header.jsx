@@ -11,6 +11,9 @@ const Header = ({ collapsed, setCollapsed }) => {
     if (path === "/" || path === "/Dashbord") return "Dashboard";
     if (path === "/Snapshot") return "Snapshot";
     if (path === "/Payments") return "Payments";
+    if (path === "/RegistrationComparisons") return "Registration Comparisons";
+    if (path === "/Alerts") return "Alerts";
+    if (path === "/Deposit") return "Deposit";
     if (path === "/settings/security") return "Security";
     return "Dashboard";
   };

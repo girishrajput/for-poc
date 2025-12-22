@@ -28,9 +28,9 @@ const items = [
     children: [
       { key: "/Snapshot", label: "Snapshot" },
       { key: "/Payments", label: "Payments" },
-      { key: "/b", label: "Registrations" },
-      { key: "/c", label: "Registration Comparisons" },
-      { key: "/d", label: "Alerts" },
+      { key: "/Registrations", label: "Registrations" },
+      { key: "/RegistrationComparisons", label: "Registration Comparisons" },
+      { key: "/Alerts", label: "Alerts" },
     ],
   },
   {
